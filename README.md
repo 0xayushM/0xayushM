@@ -4,7 +4,6 @@
 <a href="https://www.ayushmangal.com
 "><h1>I am Ayush Mangal</h1></a>
 <img src="src/header_.png">
-<a href="https://app.daily.dev/0xayushM"><img align="right" src="https://api.daily.dev/devcards/abacddbe9d6046999e01ee39611f40c3.png?r=gar" width="300" alt="Ayush Mangal's Dev Card"/></a>
 
 * 📖 Pursuing my Bachelor's in Information Technology from Manipal University Jaipur. 
 
