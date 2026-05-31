@@ -81,13 +81,6 @@ Manufacturing · Energy Storage · Fitness · Cables · Brushes · EdTech
 >
 > [brewmyagent.com](https://brewmyagent.com)
 
-<br/>
-
-| Project | What it does | Stack |
-|---------|-------------|-------|
-| [**Lead-Genie**](https://github.com/0xayushM/lead-genie) | Multi-source lead aggregation (website, FB Lead Ads, WhatsApp) with AI scoring | Next.js · Node · Postgres · OpenAI · Twilio · Meta APIs |
-| [**Post-Pilot**](https://github.com/0xayushM/post-pilot) | Voice → platform-specific content drafts via Whisper + GPT | Next.js · TypeScript · OpenAI · Whisper · Tailwind |
-
 ---
 
 ## `> git log --oneline --experience`
