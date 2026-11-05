@@ -1,8 +1,8 @@
-name: generate contribution snake
+name: generate profile telemetry
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # every 12 hours
+    - cron: "0 */6 * * *"   # every 6 hours
   workflow_dispatch:
   push:
     branches: [main]
@@ -13,15 +13,28 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
-      - name: Generate snake SVGs
+      - uses: actions/checkout@v4
+
+      - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/hud-snake.svg?palette=github-dark&color_snake=#00E5FF&color_dots=#0b1622,#0d3646,#0f6478,#139bb5,#00e5ff
+
+      - name: Generate HUD telemetry panel
+        env:
+          # Optional: add a classic PAT (read:user) as METRICS_TOKEN to include private-repo stars/languages.
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+        run: |
+          python3 scripts/telemetry.py dist/telemetry.svg || {
+            echo "::warning::telemetry failed, keeping the previous panel"
+            curl -sfL "https://raw.githubusercontent.com/${{ github.repository }}/output/telemetry.svg" -o dist/telemetry.svg || true
+          }
 
       - name: Push to the output branch
         uses: crazy-max/ghaction-github-pages@v4
