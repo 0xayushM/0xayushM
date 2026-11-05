@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Ayush Mangal — Creative Developer">
+<title>Ayush Mangal — Creative Developer</title>
+<defs>
+  <linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#03060c"/><stop offset="1" stop-color="#071626"/>
+  </linearGradient>
+  <pattern id="hgrid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#00e5ff" stroke-opacity=".06"/>
+  </pattern>
+  <pattern id="hlines" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" fill="#000" fill-opacity=".35"/>
+  </pattern>
+  <linearGradient id="hscan" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#00e5ff" stop-opacity="0"/>
+    <stop offset=".9" stop-color="#00e5ff" stop-opacity=".18"/>
+    <stop offset="1" stop-color="#7cf3ff" stop-opacity=".7"/>
+  </linearGradient>
+  <filter id="hneon" x="-20%" y="-50%" width="140%" height="200%">
+    <feGaussianBlur stdDeviation="3.2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="hsoft" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="8"/>
+  </filter>
+  <clipPath id="hclip"><rect width="1200" height="440" rx="16"/></clipPath>
+  <radialGradient id="hcore" cx="235" cy="220" r="200" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#00e5ff" stop-opacity=".45"/>
+    <stop offset=".35" stop-color="#00e5ff" stop-opacity=".10"/>
+    <stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="hwedge" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00e5ff" stop-opacity="0"/><stop offset="1" stop-color="#00e5ff" stop-opacity=".32"/>
+  </linearGradient>
+  <linearGradient id="hname" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffffff"/><stop offset=".55" stop-color="#7cf3ff"/><stop offset="1" stop-color="#00e5ff"/>
+  </linearGradient>
+  <path id="hring" d="M235,220 m-112,0 a112,112 0 1,1 224,0 a112,112 0 1,1 -224,0"/>
+  <clipPath id="htype"><rect x="478" y="222" width="0" height="40">
+    <animate attributeName="width" from="0" to="700" begin=".9s" dur="1.1s" fill="freeze"/></rect></clipPath>
+</defs>
+<style>
+  text { font-family: 'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono',monospace; }
+  .g1 { animation: g1 4.5s infinite steps(1); }
+  .g2 { animation: g2 4.5s infinite steps(1); }
+  @keyframes g1 { 0%,88%,100% { opacity:0; transform:translate(0,0); } 89% { opacity:.9; transform:translate(-6px,2px); } 91% { opacity:.8; transform:translate(4px,-2px); } 93% { opacity:0; } 96% { opacity:.7; transform:translate(-3px,0); } 97% { opacity:0; } }
+  @keyframes g2 { 0%,88%,100% { opacity:0; transform:translate(0,0); } 89% { opacity:.9; transform:translate(6px,-2px); } 91% { opacity:.8; transform:translate(-4px,2px); } 93% { opacity:0; } 96% { opacity:.7; transform:translate(3px,1px); } 97% { opacity:0; } }
+  .role-a { animation: ra 9s infinite; }
+  .role-b { animation: rb 9s infinite; }
+  @keyframes ra { 0%,62% { opacity:1; } 63%,64% { opacity:.2; } 65%,92% { opacity:0; } 93% { opacity:.4; } 94%,100% { opacity:1; } }
+  @keyframes rb { 0%,63% { opacity:0; } 64% { opacity:.6; } 65%,92% { opacity:1; } 93%,100% { opacity:0; } }
+  .blink { animation: bl 1s infinite steps(1); }
+  @keyframes bl { 50% { opacity:0; } }
+</style>
+<g clip-path="url(#hclip)">
+  <rect width="1200" height="440" rx="16" fill="url(#hbg)"/>
+  <rect width="1200" height="440" fill="url(#hgrid)"/>
+
+  <!-- ===== REACTOR / RING ASSEMBLY ===== -->
+  <circle cx="235" cy="220" r="200" fill="url(#hcore)">
+    <animate attributeName="opacity" values=".7;1;.7" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <g stroke="#00e5ff" stroke-opacity=".55" stroke-width="1.4"><line x1="427.0" y1="220.0" x2="415.0" y2="220.0"/><line x1="426.3" y1="236.7" x2="421.3" y2="236.3"/><line x1="424.1" y1="253.3" x2="419.2" y2="252.5"/><line x1="420.5" y1="269.7" x2="415.6" y2="268.4"/><line x1="415.4" y1="285.7" x2="410.7" y2="284.0"/><line x1="409.0" y1="301.1" x2="404.5" y2="299.0"/><line x1="401.3" y1="316.0" x2="390.9" y2="310.0"/><line x1="392.3" y1="330.1" x2="388.2" y2="327.3"/><line x1="382.1" y1="343.4" x2="378.3" y2="340.2"/><line x1="370.8" y1="355.8" x2="367.2" y2="352.2"/><line x1="358.4" y1="367.1" x2="355.2" y2="363.3"/><line x1="345.1" y1="377.3" x2="342.3" y2="373.2"/><line x1="331.0" y1="386.3" x2="325.0" y2="375.9"/><line x1="316.1" y1="394.0" x2="314.0" y2="389.5"/><line x1="300.7" y1="400.4" x2="299.0" y2="395.7"/><line x1="284.7" y1="405.5" x2="283.4" y2="400.6"/><line x1="268.3" y1="409.1" x2="267.5" y2="404.2"/><line x1="251.7" y1="411.3" x2="251.3" y2="406.3"/><line x1="235.0" y1="412.0" x2="235.0" y2="400.0"/><line x1="218.3" y1="411.3" x2="218.7" y2="406.3"/><line x1="201.7" y1="409.1" x2="202.5" y2="404.2"/><line x1="185.3" y1="405.5" x2="186.6" y2="400.6"/><line x1="169.3" y1="400.4" x2="171.0" y2="395.7"/><line x1="153.9" y1="394.0" x2="156.0" y2="389.5"/><line x1="139.0" y1="386.3" x2="145.0" y2="375.9"/><line x1="124.9" y1="377.3" x2="127.7" y2="373.2"/><line x1="111.6" y1="367.1" x2="114.8" y2="363.3"/><line x1="99.2" y1="355.8" x2="102.8" y2="352.2"/><line x1="87.9" y1="343.4" x2="91.7" y2="340.2"/><line x1="77.7" y1="330.1" x2="81.8" y2="327.3"/><line x1="68.7" y1="316.0" x2="79.1" y2="310.0"/><line x1="61.0" y1="301.1" x2="65.5" y2="299.0"/><line x1="54.6" y1="285.7" x2="59.3" y2="284.0"/><line x1="49.5" y1="269.7" x2="54.4" y2="268.4"/><line x1="45.9" y1="253.3" x2="50.8" y2="252.5"/><line x1="43.7" y1="236.7" x2="48.7" y2="236.3"/><line x1="43.0" y1="220.0" x2="55.0" y2="220.0"/><line x1="43.7" y1="203.3" x2="48.7" y2="203.7"/><line x1="45.9" y1="186.7" x2="50.8" y2="187.5"/><line x1="49.5" y1="170.3" x2="54.4" y2="171.6"/><line x1="54.6" y1="154.3" x2="59.3" y2="156.0"/><line x1="61.0" y1="138.9" x2="65.5" y2="141.0"/><line x1="68.7" y1="124.0" x2="79.1" y2="130.0"/><line x1="77.7" y1="109.9" x2="81.8" y2="112.7"/><line x1="87.9" y1="96.6" x2="91.7" y2="99.8"/><line x1="99.2" y1="84.2" x2="102.8" y2="87.8"/><line x1="111.6" y1="72.9" x2="114.8" y2="76.7"/><line x1="124.9" y1="62.7" x2="127.7" y2="66.8"/><line x1="139.0" y1="53.7" x2="145.0" y2="64.1"/><line x1="153.9" y1="46.0" x2="156.0" y2="50.5"/><line x1="169.3" y1="39.6" x2="171.0" y2="44.3"/><line x1="185.3" y1="34.5" x2="186.6" y2="39.4"/><line x1="201.7" y1="30.9" x2="202.5" y2="35.8"/><line x1="218.3" y1="28.7" x2="218.7" y2="33.7"/><line x1="235.0" y1="28.0" x2="235.0" y2="40.0"/><line x1="251.7" y1="28.7" x2="251.3" y2="33.7"/><line x1="268.3" y1="30.9" x2="267.5" y2="35.8"/><line x1="284.7" y1="34.5" x2="283.4" y2="39.4"/><line x1="300.7" y1="39.6" x2="299.0" y2="44.3"/><line x1="316.1" y1="46.0" x2="314.0" y2="50.5"/><line x1="331.0" y1="53.7" x2="325.0" y2="64.1"/><line x1="345.1" y1="62.7" x2="342.3" y2="66.8"/><line x1="358.4" y1="72.9" x2="355.2" y2="76.7"/><line x1="370.8" y1="84.2" x2="367.2" y2="87.8"/><line x1="382.1" y1="96.6" x2="378.3" y2="99.8"/><line x1="392.3" y1="109.9" x2="388.2" y2="112.7"/><line x1="401.3" y1="124.0" x2="390.9" y2="130.0"/><line x1="409.0" y1="138.9" x2="404.5" y2="141.0"/><line x1="415.4" y1="154.3" x2="410.7" y2="156.0"/><line x1="420.5" y1="170.3" x2="415.6" y2="171.6"/><line x1="424.1" y1="186.7" x2="419.2" y2="187.5"/><line x1="426.3" y1="203.3" x2="421.3" y2="203.7"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 235 220" to="360 235 220" dur="90s" repeatCount="indefinite"/>
+  </g>
+  <circle cx="235" cy="220" r="170" fill="none" stroke="#00e5ff" stroke-opacity=".25"/>
+  <circle cx="235" cy="220" r="160" fill="none" stroke="#00e5ff" stroke-width="5" stroke-dasharray="160 40 60 40 30 300" stroke-linecap="round" opacity=".85" filter="url(#hneon)">
+    <animateTransform attributeName="transform" type="rotate" from="360 235 220" to="0 235 220" dur="18s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="235" cy="220" r="146" fill="none" stroke="#ffb547" stroke-width="2.5" stroke-dasharray="40 18 6 18 90 200" opacity=".85">
+    <animateTransform attributeName="transform" type="rotate" from="0 235 220" to="360 235 220" dur="12s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="235" cy="220" r="132" fill="none" stroke="#00e5ff" stroke-opacity=".35" stroke-dasharray="2 6"/>
+  <text font-size="12.5" fill="#7cf3ff" letter-spacing="2" opacity=".9">
+    <textPath href="#hring" textLength="696" lengthAdjust="spacing"> ◆ 0XAYUSHM ◆ CREATIVE DEVELOPER ◆ AI SYSTEMS ◆ DESIGNER ◆ ARTIST</textPath>
+    <animateTransform attributeName="transform" type="rotate" from="0 235 220" to="-360 235 220" dur="40s" repeatCount="indefinite"/>
+  </text>
+  <circle cx="235" cy="220" r="92" fill="none" stroke="#00e5ff" stroke-opacity=".5" stroke-width="1" stroke-dasharray="70 12">
+    <animateTransform attributeName="transform" type="rotate" from="0 235 220" to="360 235 220" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M235 220 L235.0 42.0 A178 178 0 0 1 360.9 94.1Z" fill="url(#hwedge)">
+    <animateTransform attributeName="transform" type="rotate" from="0 235 220" to="360 235 220" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <g stroke="#00e5ff" stroke-opacity=".6">
+    <line x1="20" y1="220" x2="37" y2="220"/><line x1="433" y1="220" x2="450" y2="220"/>
+    <line x1="235" y1="5" x2="235" y2="22"/><line x1="235" y1="418" x2="235" y2="435"/>
+  </g>
+  <circle cx="235" cy="220" r="58" fill="#00e5ff" fill-opacity=".10" filter="url(#hsoft)">
+    <animate attributeName="r" values="52;64;52" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <polygon points="235.0,170.0 278.3,195.0 278.3,245.0 235.0,270.0 191.7,245.0 191.7,195.0" fill="#04121c" stroke="#00e5ff" stroke-width="2" filter="url(#hneon)">
+    <animateTransform attributeName="transform" type="rotate" values="0 235 220;0 235 220;60 235 220" keyTimes="0;.8;1" dur="4s" repeatCount="indefinite"/>
+  </polygon>
+  <text x="235" y="232" text-anchor="middle" font-size="34" font-weight="800" fill="#ffffff" letter-spacing="2" filter="url(#hneon)">AM</text>
+
+  <!-- ===== TELEMETRY TOP ROW ===== -->
+  <text x="478" y="66" font-size="13" fill="#00e5ff" letter-spacing="2" opacity=".85">SYS.ID // 0xAYUSHM</text>
+  <text x="1150" y="66" text-anchor="end" font-size="13" fill="#6f8ea3" letter-spacing="2">BUILD 2026.11 · UTC+05:30 · IN</text>
+  <line x1="478" y1="82" x2="1150" y2="82" stroke="#00e5ff" stroke-opacity=".25"/>
+  <line x1="478" y1="82" x2="1150" y2="82" stroke="#00e5ff" stroke-width="2" stroke-dasharray="40 632">
+    <animate attributeName="stroke-dashoffset" from="672" to="0" dur="3.5s" repeatCount="indefinite"/>
+  </line>
+  <text x="478" y="108" font-size="12" fill="#6f8ea3" letter-spacing="1.5">0x41 0x59 0x55 0x53 0x48 · 0x4D 0x41 0x4E 0x47 0x41 0x4C</text>
+
+  <!-- ===== NAME (glitch) ===== -->
+  <g font-size="74" font-weight="800" letter-spacing="5">
+    <text class="g1" x="478" y="196" fill="#ff2bd6">AYUSH MANGAL</text>
+    <text class="g2" x="478" y="196" fill="#00e5ff">AYUSH MANGAL</text>
+    <text x="478" y="196" fill="url(#hname)" filter="url(#hneon)" opacity="0">AYUSH MANGAL
+      <animate attributeName="opacity" values="0;1;.3;1;.6;1" keyTimes="0;.3;.45;.6;.75;1" dur=".9s" fill="freeze"/>
+    </text>
+  </g>
+  <rect x="478" y="210" height="3" width="0" fill="#00e5ff" filter="url(#hneon)">
+    <animate attributeName="width" from="0" to="672" begin=".4s" dur="1s" fill="freeze"/>
+  </rect>
+  <rect x="478" y="210" height="3" width="60" fill="#ffffff" opacity=".9">
+    <animate attributeName="x" values="478;1090;478" dur="5s" begin="1.4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ===== ROLE (creative <-> crazy) ===== -->
+  <g clip-path="url(#htype)" font-size="27" font-weight="700" letter-spacing="3">
+    <text x="478" y="254" fill="#00e5ff">&gt;_</text>
+    <text class="role-a" x="528" y="254" fill="#d7f6ff">CREATIVE DEVELOPER</text>
+    <text class="role-b" x="528" y="254" fill="#ffb547" filter="url(#hneon)">CRAZY DEVELOPER</text>
+  </g>
+  <text x="478" y="296" font-size="15.5" fill="#6f8ea3" letter-spacing="1.5" opacity="0">AI SYSTEMS · MOTION &amp; 3D WEB · BRAND DESIGN · PORTRAIT ART
+    <animate attributeName="opacity" from="0" to="1" begin="1.6s" dur=".6s" fill="freeze"/>
+  </text>
+  <text x="478" y="326" font-size="13" fill="#00e5ff" letter-spacing="1.5" opacity="0">FOUNDING ENGINEER &amp; DESIGNER — ships ideas from sketch to production<tspan class="blink" fill="#7cf3ff"> █</tspan>
+    <animate attributeName="opacity" from="0" to=".9" begin="1.9s" dur=".6s" fill="freeze"/>
+  </text>
+  
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.6s" dur=".4s" fill="freeze"/>
+      <path d="M478 352h90l10 10v22h-100z" fill="#3dffa8" fill-opacity=".07" stroke="#3dffa8" stroke-opacity=".7"/>
+      <text x="524.0" y="378" text-anchor="middle" font-size="12.5" fill="#3dffa8" letter-spacing="1.5">● ONLINE</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.85s" dur=".4s" fill="freeze"/>
+      <path d="M588 352h135l10 10v22h-145z" fill="#00e5ff" fill-opacity=".07" stroke="#00e5ff" stroke-opacity=".7"/>
+      <text x="656.5" y="378" text-anchor="middle" font-size="12.5" fill="#00e5ff" letter-spacing="1.5">VINAYAK GROUP</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.1s" dur=".4s" fill="freeze"/>
+      <path d="M743 352h135l10 10v22h-145z" fill="#00e5ff" fill-opacity=".07" stroke="#00e5ff" stroke-opacity=".7"/>
+      <text x="811.5" y="378" text-anchor="middle" font-size="12.5" fill="#00e5ff" letter-spacing="1.5">EDHWAY STUDIO</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.35s" dur=".4s" fill="freeze"/>
+      <path d="M898 352h117l10 10v22h-127z" fill="#00e5ff" fill-opacity=".07" stroke="#00e5ff" stroke-opacity=".7"/>
+      <text x="957.5" y="378" text-anchor="middle" font-size="12.5" fill="#00e5ff" letter-spacing="1.5">BREWMYAGENT</text>
+    </g>
+
+  <!-- ===== FOOT READOUTS ===== -->
+  <g><rect x="1062" width="6" fill="#00e5ff" fill-opacity="0.35"><animate attributeName="height" values="6;19;32;11;24;6" dur="1.4s" repeatCount="indefinite"/><animate attributeName="y" values="402;389;376;397;384;402" dur="1.4s" repeatCount="indefinite"/></rect><rect x="1071" width="6" fill="#00e5ff" fill-opacity="0.50"><animate attributeName="height" values="13;26;39;18;31;13" dur="1.7s" repeatCount="indefinite"/><animate attributeName="y" values="395;382;369;390;377;395" dur="1.7s" repeatCount="indefinite"/></rect><rect x="1080" width="6" fill="#00e5ff" fill-opacity="0.65"><animate attributeName="height" values="20;33;12;25;38;20" dur="2.0s" repeatCount="indefinite"/><animate attributeName="y" values="388;375;396;383;370;388" dur="2.0s" repeatCount="indefinite"/></rect><rect x="1089" width="6" fill="#00e5ff" fill-opacity="0.80"><animate attributeName="height" values="27;6;19;32;11;27" dur="1.4s" repeatCount="indefinite"/><animate attributeName="y" values="381;402;389;376;397;381" dur="1.4s" repeatCount="indefinite"/></rect><rect x="1098" width="6" fill="#00e5ff" fill-opacity="0.35"><animate attributeName="height" values="34;13;26;39;18;34" dur="1.7s" repeatCount="indefinite"/><animate attributeName="y" values="374;395;382;369;390;374" dur="1.7s" repeatCount="indefinite"/></rect><rect x="1107" width="6" fill="#00e5ff" fill-opacity="0.50"><animate attributeName="height" values="7;20;33;12;25;7" dur="2.0s" repeatCount="indefinite"/><animate attributeName="y" values="401;388;375;396;383;401" dur="2.0s" repeatCount="indefinite"/></rect><rect x="1116" width="6" fill="#00e5ff" fill-opacity="0.65"><animate attributeName="height" values="14;27;6;19;32;14" dur="1.4s" repeatCount="indefinite"/><animate attributeName="y" values="394;381;402;389;376;394" dur="1.4s" repeatCount="indefinite"/></rect><rect x="1125" width="6" fill="#00e5ff" fill-opacity="0.80"><animate attributeName="height" values="21;34;13;26;39;21" dur="1.7s" repeatCount="indefinite"/><animate attributeName="y" values="387;374;395;382;369;387" dur="1.7s" repeatCount="indefinite"/></rect><rect x="1134" width="6" fill="#00e5ff" fill-opacity="0.35"><animate attributeName="height" values="28;7;20;33;12;28" dur="2.0s" repeatCount="indefinite"/><animate attributeName="y" values="380;401;388;375;396;380" dur="2.0s" repeatCount="indefinite"/></rect><rect x="1143" width="6" fill="#00e5ff" fill-opacity="0.50"><animate attributeName="height" values="35;14;27;6;19;35" dur="1.4s" repeatCount="indefinite"/><animate attributeName="y" values="373;394;381;402;389;373" dur="1.4s" repeatCount="indefinite"/></rect></g>
+  <text x="1150" y="425" text-anchor="end" font-size="10" fill="#6f8ea3" letter-spacing="2">NEURAL LINK · STABLE</text>
+  <text x="30" y="425" font-size="10" fill="#6f8ea3" letter-spacing="2">UPLINK 98.7% · LATENCY 4ms · COFFEE 63%</text>
+
+  <rect y="-140" width="1200" height="140" fill="url(#hscan)">
+    <animate attributeName="y" values="-140;440" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="1200" height="440" fill="url(#hlines)" opacity=".5"/>
+  <rect x=".75" y=".75" width="1198.5" height="438.5" rx="16" fill="none" stroke="#00e5ff" stroke-opacity=".28" stroke-width="1.5"/>
+  <g stroke="#00e5ff" stroke-width="2" fill="none" opacity=".9">
+    <path d="M10 36V10H36"/><path d="M1164 10H1190V36"/>
+    <path d="M10 404V430H36"/><path d="M1164 430H1190V404"/>
+  </g>
+</g>
+</svg>

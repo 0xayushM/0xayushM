@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Off-duty subsystems: sketching, 3D, AI, music, motorcycles, F1">
+<title>Off-duty subsystems: sketching, 3D, AI, music, motorcycles, F1</title>
+<defs>
+  <linearGradient id="sbg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#03060c"/><stop offset="1" stop-color="#071626"/>
+  </linearGradient>
+  <pattern id="sgrid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#00e5ff" stroke-opacity=".06"/>
+  </pattern>
+  <pattern id="slines" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" fill="#000" fill-opacity=".35"/>
+  </pattern>
+  <linearGradient id="sscan" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#00e5ff" stop-opacity="0"/>
+    <stop offset=".9" stop-color="#00e5ff" stop-opacity=".18"/>
+    <stop offset="1" stop-color="#7cf3ff" stop-opacity=".7"/>
+  </linearGradient>
+  <filter id="sneon" x="-20%" y="-50%" width="140%" height="200%">
+    <feGaussianBlur stdDeviation="3.2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="ssoft" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="8"/>
+  </filter>
+  <clipPath id="sclip"><rect width="1200" height="400" rx="16"/></clipPath>
+  <radialGradient id="sdisc" cx="220" cy="200" r="160" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#00e5ff" stop-opacity=".12"/><stop offset="1" stop-color="#00e5ff" stop-opacity=".02"/>
+  </radialGradient>
+  <linearGradient id="swedge" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#00e5ff" stop-opacity="0"/><stop offset="1" stop-color="#00e5ff" stop-opacity=".45"/>
+  </linearGradient>
+</defs>
+<style> text { font-family: 'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono',monospace; } </style>
+<g clip-path="url(#sclip)">
+  <rect width="1200" height="400" rx="16" fill="url(#sbg)"/>
+  <rect width="1200" height="400" fill="url(#sgrid)"/>
+  <circle cx="220" cy="200" r="160" fill="url(#sdisc)" stroke="#00e5ff" stroke-opacity=".6"/>
+  <g fill="none" stroke="#00e5ff" stroke-opacity=".22">
+    <circle cx="220" cy="200" r="40.0"/><circle cx="220" cy="200" r="80.0"/><circle cx="220" cy="200" r="120.0"/>
+    <line x1="60" y1="200" x2="380" y2="200"/><line x1="220" y1="40" x2="220" y2="360"/>
+    <line x1="106.9" y1="86.9" x2="333.1" y2="313.1" stroke-dasharray="3 5"/>
+    <line x1="106.9" y1="313.1" x2="333.1" y2="86.9" stroke-dasharray="3 5"/>
+  </g>
+  <g>
+    <path d="M220 200 L220.0 40.0 A160 160 0 0 1 333.1 86.9Z" fill="url(#swedge)"/>
+    <path d="M220 200 L333.1 86.9" stroke="#7cf3ff" stroke-width="2" filter="url(#sneon)"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 220 200" to="360 220 200" dur="4.0s" repeatCount="indefinite"/>
+  </g>
+  
+    <g>
+      <circle cx="276.0" cy="103.0" r="5" fill="#ffb547" opacity=".15">
+        <animate attributeName="opacity" values="1;.15;.15" keyTimes="0;.6;1" dur="4.0s" begin="3.83s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="276.0" cy="103.0" r="5" fill="none" stroke="#ffb547" opacity="0">
+        <animate attributeName="r" values="5;18;18" keyTimes="0;.35;1" dur="4.0s" begin="3.83s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".9;0;0" keyTimes="0;.35;1" dur="4.0s" begin="3.83s" repeatCount="indefinite"/>
+      </circle>
+      <text x="286.0" y="95.0" fill="#ffb547" style="font-size:10px" letter-spacing="1.5" opacity=".85">ART</text>
+    </g>
+    <g>
+      <circle cx="302.7" cy="230.1" r="5" fill="#ffb547" opacity=".15">
+        <animate attributeName="opacity" values="1;.15;.15" keyTimes="0;.6;1" dur="4.0s" begin="0.72s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="302.7" cy="230.1" r="5" fill="none" stroke="#ffb547" opacity="0">
+        <animate attributeName="r" values="5;18;18" keyTimes="0;.35;1" dur="4.0s" begin="0.72s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".9;0;0" keyTimes="0;.35;1" dur="4.0s" begin="0.72s" repeatCount="indefinite"/>
+      </circle>
+      <text x="312.7" y="222.1" fill="#ffb547" style="font-size:10px" letter-spacing="1.5" opacity=".85">MUSIC</text>
+    </g>
+    <g>
+      <circle cx="254.0" cy="326.7" r="5" fill="#ffb547" opacity=".15">
+        <animate attributeName="opacity" values="1;.15;.15" keyTimes="0;.6;1" dur="4.0s" begin="1.33s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="254.0" cy="326.7" r="5" fill="none" stroke="#ffb547" opacity="0">
+        <animate attributeName="r" values="5;18;18" keyTimes="0;.35;1" dur="4.0s" begin="1.33s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".9;0;0" keyTimes="0;.35;1" dur="4.0s" begin="1.33s" repeatCount="indefinite"/>
+      </circle>
+      <text x="264.0" y="318.7" fill="#ffb547" style="font-size:10px" letter-spacing="1.5" opacity=".85">3D</text>
+    </g>
+    <g>
+      <circle cx="144.0" cy="263.8" r="5" fill="#ffb547" opacity=".15">
+        <animate attributeName="opacity" values="1;.15;.15" keyTimes="0;.6;1" dur="4.0s" begin="2.06s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="144.0" cy="263.8" r="5" fill="none" stroke="#ffb547" opacity="0">
+        <animate attributeName="r" values="5;18;18" keyTimes="0;.35;1" dur="4.0s" begin="2.06s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".9;0;0" keyTimes="0;.35;1" dur="4.0s" begin="2.06s" repeatCount="indefinite"/>
+      </circle>
+      <text x="154.0" y="255.8" fill="#ffb547" style="font-size:10px" letter-spacing="1.5" opacity=".85">RIDE</text>
+    </g>
+    <g>
+      <circle cx="152.3" cy="175.4" r="5" fill="#ffb547" opacity=".15">
+        <animate attributeName="opacity" values="1;.15;.15" keyTimes="0;.6;1" dur="4.0s" begin="2.72s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="152.3" cy="175.4" r="5" fill="none" stroke="#ffb547" opacity="0">
+        <animate attributeName="r" values="5;18;18" keyTimes="0;.35;1" dur="4.0s" begin="2.72s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".9;0;0" keyTimes="0;.35;1" dur="4.0s" begin="2.72s" repeatCount="indefinite"/>
+      </circle>
+      <text x="162.3" y="167.4" fill="#ffb547" style="font-size:10px" letter-spacing="1.5" opacity=".85">F1</text>
+    </g>
+    <g>
+      <circle cx="171.8" cy="67.7" r="5" fill="#ffb547" opacity=".15">
+        <animate attributeName="opacity" values="1;.15;.15" keyTimes="0;.6;1" dur="4.0s" begin="3.28s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="171.8" cy="67.7" r="5" fill="none" stroke="#ffb547" opacity="0">
+        <animate attributeName="r" values="5;18;18" keyTimes="0;.35;1" dur="4.0s" begin="3.28s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".9;0;0" keyTimes="0;.35;1" dur="4.0s" begin="3.28s" repeatCount="indefinite"/>
+      </circle>
+      <text x="181.8" y="59.7" fill="#ffb547" style="font-size:10px" letter-spacing="1.5" opacity=".85">AI</text>
+    </g>
+  <circle cx="220" cy="200" r="4" fill="#7cf3ff"/>
+  <text x="220" y="386" text-anchor="middle" fill="#6f8ea3" letter-spacing="3" style="font-size:11px">PASSIVE SCAN · 6 CONTACTS</text>
+  <text x="470" y="52" fill="#00e5ff" letter-spacing="3" style="font-size:13px">OFF-DUTY SUBSYSTEMS</text>
+  <text x="1160" y="52" text-anchor="end" fill="#6f8ea3" letter-spacing="2" style="font-size:11px">SIGNAL STRENGTH</text>
+  <line x1="470" y1="64" x2="1160" y2="64" stroke="#00e5ff" stroke-opacity=".25"/>
+  
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.30s" dur=".4s" fill="freeze"/>
+      <text x="470" y="92" fill="#ffffff" font-weight="700" letter-spacing="2" style="font-size:14px">PORTRAIT SKETCHING</text>
+      <text x="470" y="110" fill="#6f8ea3" style="font-size:12px">graphite · procreate</text>
+      <rect x="850" y="82" width="300" height="8" fill="#00e5ff" fill-opacity=".1"/>
+      <rect x="850" y="82" width="0" height="8" fill="#00e5ff" filter="url(#sneon)">
+        <animate attributeName="width" from="0" to="270" begin="0.50s" dur="1.2s" fill="freeze"/>
+      </rect>
+      <text x="1160" y="91" text-anchor="end" fill="#00e5ff" style="font-size:11px" dy="18">SIG 90</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.48s" dur=".4s" fill="freeze"/>
+      <text x="470" y="140" fill="#ffffff" font-weight="700" letter-spacing="2" style="font-size:14px">3D / WEBGL / MOTION</text>
+      <text x="470" y="158" fill="#6f8ea3" style="font-size:12px">three.js · gsap · sketchup</text>
+      <rect x="850" y="130" width="300" height="8" fill="#00e5ff" fill-opacity=".1"/>
+      <rect x="850" y="130" width="0" height="8" fill="#00e5ff" filter="url(#sneon)">
+        <animate attributeName="width" from="0" to="255" begin="0.68s" dur="1.2s" fill="freeze"/>
+      </rect>
+      <text x="1160" y="139" text-anchor="end" fill="#00e5ff" style="font-size:11px" dy="18">SIG 85</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.66s" dur=".4s" fill="freeze"/>
+      <text x="470" y="188" fill="#ffffff" font-weight="700" letter-spacing="2" style="font-size:14px">AI SYSTEMS</text>
+      <text x="470" y="206" fill="#6f8ea3" style="font-size:12px">a voice-first home assistant, WIP</text>
+      <rect x="850" y="178" width="300" height="8" fill="#00e5ff" fill-opacity=".1"/>
+      <rect x="850" y="178" width="0" height="8" fill="#00e5ff" filter="url(#sneon)">
+        <animate attributeName="width" from="0" to="240" begin="0.86s" dur="1.2s" fill="freeze"/>
+      </rect>
+      <text x="1160" y="187" text-anchor="end" fill="#00e5ff" style="font-size:11px" dy="18">SIG 80</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.84s" dur=".4s" fill="freeze"/>
+      <text x="470" y="236" fill="#ffffff" font-weight="700" letter-spacing="2" style="font-size:14px">PIANO &amp; GUITAR</text>
+      <text x="470" y="254" fill="#6f8ea3" style="font-size:12px">keys first, strings second</text>
+      <rect x="850" y="226" width="300" height="8" fill="#00e5ff" fill-opacity=".1"/>
+      <rect x="850" y="226" width="0" height="8" fill="#00e5ff" filter="url(#sneon)">
+        <animate attributeName="width" from="0" to="195" begin="1.04s" dur="1.2s" fill="freeze"/>
+      </rect>
+      <text x="1160" y="235" text-anchor="end" fill="#00e5ff" style="font-size:11px" dy="18">SIG 65</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.02s" dur=".4s" fill="freeze"/>
+      <text x="470" y="284" fill="#ffffff" font-weight="700" letter-spacing="2" style="font-size:14px">MOTORCYCLES</text>
+      <text x="470" y="302" fill="#6f8ea3" style="font-size:12px">royal enfield meteor 350</text>
+      <rect x="850" y="274" width="300" height="8" fill="#00e5ff" fill-opacity=".1"/>
+      <rect x="850" y="274" width="0" height="8" fill="#00e5ff" filter="url(#sneon)">
+        <animate attributeName="width" from="0" to="225" begin="1.22s" dur="1.2s" fill="freeze"/>
+      </rect>
+      <text x="1160" y="283" text-anchor="end" fill="#00e5ff" style="font-size:11px" dy="18">SIG 75</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.20s" dur=".4s" fill="freeze"/>
+      <text x="470" y="332" fill="#ffffff" font-weight="700" letter-spacing="2" style="font-size:14px">F1 · SCALE MODELS · LEGO</text>
+      <text x="470" y="350" fill="#6f8ea3" style="font-size:12px">ferrari f40 is the dream</text>
+      <rect x="850" y="322" width="300" height="8" fill="#00e5ff" fill-opacity=".1"/>
+      <rect x="850" y="322" width="0" height="8" fill="#00e5ff" filter="url(#sneon)">
+        <animate attributeName="width" from="0" to="210" begin="1.40s" dur="1.2s" fill="freeze"/>
+      </rect>
+      <text x="1160" y="331" text-anchor="end" fill="#00e5ff" style="font-size:11px" dy="18">SIG 70</text>
+    </g>
+
+  <rect y="-140" width="1200" height="140" fill="url(#sscan)">
+    <animate attributeName="y" values="-140;400" dur="9s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="1200" height="400" fill="url(#slines)" opacity=".5"/>
+  <rect x=".75" y=".75" width="1198.5" height="398.5" rx="16" fill="none" stroke="#00e5ff" stroke-opacity=".28" stroke-width="1.5"/>
+  <g stroke="#00e5ff" stroke-width="2" fill="none" opacity=".9">
+    <path d="M10 36V10H36"/><path d="M1164 10H1190V36"/>
+    <path d="M10 364V390H36"/><path d="M1164 390H1190V364"/>
+  </g>
+</g>
+</svg>

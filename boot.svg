@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-label="Boot log: Ayush Mangal profile">
+<title>Boot log: Ayush Mangal profile</title>
+<defs>
+  <linearGradient id="bbg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#03060c"/><stop offset="1" stop-color="#071626"/>
+  </linearGradient>
+  <pattern id="bgrid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#00e5ff" stroke-opacity=".06"/>
+  </pattern>
+  <pattern id="blines" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" fill="#000" fill-opacity=".35"/>
+  </pattern>
+  <linearGradient id="bscan" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#00e5ff" stop-opacity="0"/>
+    <stop offset=".9" stop-color="#00e5ff" stop-opacity=".18"/>
+    <stop offset="1" stop-color="#7cf3ff" stop-opacity=".7"/>
+  </linearGradient>
+  <filter id="bneon" x="-20%" y="-50%" width="140%" height="200%">
+    <feGaussianBlur stdDeviation="3.2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="bsoft" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="8"/>
+  </filter>
+  <clipPath id="bclip"><rect width="1200" height="470" rx="16"/></clipPath></defs>
+<style>
+  text { font-family: 'JetBrains Mono','SF Mono','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono',monospace; font-size: 15px; }
+  .blink { animation: bl 1s infinite steps(1); }
+  @keyframes bl { 50% { opacity:0; } }
+</style>
+<g clip-path="url(#bclip)">
+  <rect width="1200" height="470" rx="16" fill="url(#bbg)"/>
+  <rect width="1200" height="470" fill="url(#bgrid)"/>
+  <rect width="1200" height="48" fill="#00e5ff" fill-opacity=".06"/>
+  <line x1="0" y1="48" x2="1200" y2="48" stroke="#00e5ff" stroke-opacity=".3"/>
+  <g fill="none" stroke-width="1.6">
+    <polygon points="34,17 41,21 41,29 34,33 27,29 27,21" stroke="#ff2bd6"/>
+    <polygon points="58,17 65,21 65,29 58,33 51,29 51,21" stroke="#ffb547"/>
+    <polygon points="82,17 89,21 89,29 82,33 75,29 75,21" stroke="#3dffa8"/>
+  </g>
+  <text x="600.0" y="30" text-anchor="middle" fill="#00e5ff" letter-spacing="3" style="font-size:13px">BOOT.LOG — /dev/0xayushm</text>
+  <text x="1170" y="30" text-anchor="end" fill="#6f8ea3" letter-spacing="2" style="font-size:12px">TTY-01 · SECURE</text>
+  <defs><clipPath id="bc0"><rect x="40" y="82" height="30" width="0"><animate attributeName="width" from="0" to="1120" begin="0.4s" dur=".5s" fill="freeze"/></rect></clipPath></defs><g clip-path="url(#bc0)"><text x="44" y="104" fill="#7cf3ff" font-weight="700">$ sudo ./boot --profile 0xayushm --mode overdrive</text></g>
+  <defs><clipPath id="bc1"><rect x="40" y="113" height="30" width="0"><animate attributeName="width" from="0" to="1120" begin="0.9500000000000001s" dur=".5s" fill="freeze"/></rect></clipPath></defs><g clip-path="url(#bc1)"><text x="44" y="135" xml:space="preserve"><tspan fill="#6f8ea3">[</tspan><tspan fill="#3dffa8" font-weight="700">  OK  </tspan><tspan fill="#6f8ea3">]</tspan><tspan fill="#d7f6ff"> Loading identity ............. Ayush Mangal · developer · designer · artist</tspan></text></g>
+  <defs><clipPath id="bc2"><rect x="40" y="144" height="30" width="0"><animate attributeName="width" from="0" to="1120" begin="1.5s" dur=".5s" fill="freeze"/></rect></clipPath></defs><g clip-path="url(#bc2)"><text x="44" y="166" xml:space="preserve"><tspan fill="#6f8ea3">[</tspan><tspan fill="#3dffa8" font-weight="700">  OK  </tspan><tspan fill="#6f8ea3">]</tspan><tspan fill="#d7f6ff"> Mounting /education .......... B.Tech IT · Manipal University Jaipur · 2024</tspan></text></g>
+  <defs><clipPath id="bc3"><rect x="40" y="175" height="30" width="0"><animate attributeName="width" from="0" to="1120" begin="2.0500000000000003s" dur=".5s" fill="freeze"/></rect></clipPath></defs><g clip-path="url(#bc3)"><text x="44" y="197" xml:space="preserve"><tspan fill="#6f8ea3">[</tspan><tspan fill="#3dffa8" font-weight="700">  OK  </tspan><tspan fill="#6f8ea3">]</tspan><tspan fill="#d7f6ff"> Restoring /history ........... Kafka intern @ Inventia → Systems Engineer @ TCS</tspan></text></g>
+  <defs><clipPath id="bc4"><rect x="40" y="206" height="30" width="0"><animate attributeName="width" from="0" to="1120" begin="2.6s" dur=".5s" fill="freeze"/></rect></clipPath></defs><g clip-path="url(#bc4)"><text x="44" y="228" xml:space="preserve"><tspan fill="#6f8ea3">[</tspan><tspan fill="#3dffa8" font-weight="700">  OK  </tspan><tspan fill="#6f8ea3">]</tspan><tspan fill="#d7f6ff"> Starting vinayak.service ..... AI systems + dashboards for a manufacturing group</tspan></text></g>
+  <defs><clipPath id="bc5"><rect x="40" y="237" height="30" width="0"><animate attributeName="width" from="0" to="1120" begin="3.15s" dur=".5s" fill="freeze"/></rect></clipPath></defs><g clip-path="url(#bc5)"><text x="44" y="259" xml:space="preserve"><tspan fill="#6f8ea3">[</tspan><tspan fill="#3dffa8" font-weight="700">  OK  </tspan><tspan fill="#6f8ea3">]</tspan><tspan fill="#d7f6ff"> Starting edhway.service ...... Founding Engineer &amp; Designer · Edhway Studio</tspan></text></g>
+  <defs><clipPath id="bc6"><rect x="40" y="268" height="30" width="0"><animate attributeName="width" from="0" to="1120" begin="3.7s" dur=".5s" fill="freeze"/></rect></clipPath></defs><g clip-path="url(#bc6)"><text x="44" y="290" xml:space="preserve"><tspan fill="#6f8ea3">[</tspan><tspan fill="#3dffa8" font-weight="700">  OK  </tspan><tspan fill="#6f8ea3">]</tspan><tspan fill="#d7f6ff"> Starting brewmyagent.service . Co-founder · AI agents &amp; automation</tspan></text></g>
+  <defs><clipPath id="bc7"><rect x="40" y="299" height="30" width="0"><animate attributeName="width" from="0" to="1120" begin="4.250000000000001s" dur=".5s" fill="freeze"/></rect></clipPath></defs><g clip-path="url(#bc7)"><text x="44" y="321" xml:space="preserve"><tspan fill="#6f8ea3">[</tspan><tspan fill="#00e5ff" font-weight="700"> INFO </tspan><tspan fill="#6f8ea3">]</tspan><tspan fill="#d7f6ff"> Loading creative_cortex ...... sketching · piano · guitar · 3D · motion</tspan></text></g>
+  <defs><clipPath id="bc8"><rect x="40" y="330" height="30" width="0"><animate attributeName="width" from="0" to="1120" begin="4.800000000000001s" dur=".5s" fill="freeze"/></rect></clipPath></defs><g clip-path="url(#bc8)"><text x="44" y="352" xml:space="preserve"><tspan fill="#6f8ea3">[</tspan><tspan fill="#ffb547" font-weight="700"> WARN </tspan><tspan fill="#6f8ea3">]</tspan><tspan fill="#ffb547"> Side-project count exceeds recommended limits. Ignoring.</tspan></text></g>
+  <defs><clipPath id="bc9"><rect x="40" y="361" height="30" width="0"><animate attributeName="width" from="0" to="1120" begin="5.3500000000000005s" dur=".5s" fill="freeze"/></rect></clipPath></defs><g clip-path="url(#bc9)"><text x="44" y="383" xml:space="preserve"><tspan fill="#6f8ea3">[</tspan><tspan fill="#ffffff" font-weight="700"> DONE </tspan><tspan fill="#6f8ea3">]</tspan><tspan fill="#d7f6ff"> All systems nominal. Open to collaboration</tspan></text><rect class="blink" x="512" y="368" width="10" height="19" fill="#00e5ff"/></g>
+  <text x="44" y="440" fill="#6f8ea3" letter-spacing="2" style="font-size:12px">SYSTEM INTEGRITY</text>
+  <rect x="210" y="428" width="860" height="14" fill="none" stroke="#00e5ff" stroke-opacity=".4"/>
+  <rect x="212" y="430" width="0" height="10" fill="#00e5ff" filter="url(#bneon)">
+    <animate attributeName="width" from="0" to="856" begin=".3s" dur="5.9s" fill="freeze"/>
+  </rect>
+  <text x="1156" y="440" text-anchor="end" fill="#00e5ff" style="font-size:12px" opacity="0">100%
+    <animate attributeName="opacity" from="0" to="1" begin="6.2s" dur=".3s" fill="freeze"/>
+  </text>
+
+  <rect y="-140" width="1200" height="140" fill="url(#bscan)">
+    <animate attributeName="y" values="-140;470" dur="8s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="1200" height="470" fill="url(#blines)" opacity=".5"/>
+  <rect x=".75" y=".75" width="1198.5" height="468.5" rx="16" fill="none" stroke="#00e5ff" stroke-opacity=".28" stroke-width="1.5"/>
+  <g stroke="#00e5ff" stroke-width="2" fill="none" opacity=".9">
+    <path d="M10 36V10H36"/><path d="M1164 10H1190V36"/>
+    <path d="M10 434V460H36"/><path d="M1164 460H1190V434"/>
+  </g>
+</g>
+</svg>
